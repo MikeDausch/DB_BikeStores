@@ -1,0 +1,492 @@
+Name: UI
+Type: UICategoryFolder
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Id: g=63095aefc657014ccde01012598b27dc
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=9e7430176e6c7b7d5660c8513655e8a4
+      Type: ButtonStyle
+    - Name: Accent
+      Id: g=25523da8ed4544307c67cdc545425065
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=c4eff8ab2dbde7108647472269c6157c
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Id: g=05afb2d854e2337ba41a62e89ce7eaf6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Id: g=4bfc4e9f46f846b225c7092db4a51afb
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Id: g=e0ed7dc331622d37dc300dceeb403183
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=3e89dd43467320928cc6df5879f231d5
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=451c787b44b260a5fd9c2fc923e674e9
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=253bf3a438299dfc430fddf776dd2bc4
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=df6501694740d393e783563b492d950c
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Id: g=1645e314486bef34a6e71d73a62ced89
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=fa657ee63c91373fa74f8cd4aefa624b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=66618cb3a6315d7c77ccd3e3618cc80d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=132dc1798505cd8ca39db73c9e774ca0
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=f3a7b54d4dfa4352c440297c515101a0
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=52592ddd09ce032bc77939c6f9405217
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Id: g=7239c1434324eea30f32189671935860
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=1b738538f68c8f447f672ba9c530b30f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Id: g=31d4afde8def1db17bcac87a11c655b6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=565687938eca8164229d71363239658a
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Id: g=bb1b2f7c111b47bc6b838bfd192f3671
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=7801f47a202906441c8a6961f7a36e45
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Id: g=de755c590bb3c84ecb514c405210ece0
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=9f785b63419031b632eb6b31ed89f276
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderColor
+        Id: g=5e25193314436234f770d97eed7b93c1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Id: g=7568065603086ed05b1f2b9b81b96309
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+  - Name: InputBoxStyles
+    Id: g=bbe9af253747dc0ea4ea999448750743
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e89f7a97fe6b3f6db47b38b15f7243ec
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Id: g=50dcfef92c91ba3ce5d27cd3f67cd3cb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=cbe8a332ab52c68a0703880d4f5ade3f
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Id: g=542a65ed2a4b81fc1842e6affcf7b56a
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=386b41cfcef62a171734aad4d224ecb6
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Id: g=11ce536dfacba5364031a5e7e8587ea7
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=31c961c73ac83c754d90806baea3d26b
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Id: g=df30d243331197bc6b26d82c376b7d98
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=6795ab310a0ee0cf6b918a564057830d
+      Type: ChartStyle
+  - Name: DataListStyles
+    Id: g=e8facf0bbbd363db5696dbd12268555f
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=7595ea2fd2e796caeff1bc01534528c5
+      Type: DataListStyle
+    - Name: Custom
+      Id: g=c57e9c1f72ae396a9ab41a8099a42bd2
+      Type: DataListStyle
+      Children:
+      - Name: FontSize
+        Id: g=2f59d33f8fda7343154a29d8b67424de
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 25.0
+  - Name: ToolTipStyles
+    Id: g=dd230c3508d519283ae60c5911477130
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=56fb1188bf489ee3ddabe150be4e10c2
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Id: g=a9d3f4584bb1a457158443665a331f79
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=997a6e9777cc252d5120c0547d73a338
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Id: g=36af27e3ea3fdf55332be2f582d09062
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=b9e93ab9b24a979f68209077bf2ce686
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Id: g=a5df52f502ed4db39362c4f060151026
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=b8b63811eaeded8eac3a4fe340f89bea
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Id: g=d2d4feac14a286016a026aca29e4c0dd
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e0b970af14ea42143bdd4b70e4df8fc7
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Id: g=a5a971dc4c219bf399248b4b114bc36c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=488ca0773cf6c6d2d1518b1d315cc757
+      Type: LabelStyle
+    - Name: Heading
+      Id: g=3d2d419267a8775caf33040d1d58fdb9
+      Type: LabelStyle
+      Children:
+      - Name: FontSize
+        Id: g=6c04af8899c2110db3539b9666f64d2f
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 30.0
+  - Name: RadioButtonStyles
+    Id: g=ef8c41702850fba581dffa6b5508e461
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=97df92bdfd3b785625125ff91c57662d
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Id: g=535f210e385e3814d24682dfa28378eb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=2eb3a6e9945f2deeb8609ac746d3a10b
+      Type: CheckBoxStyle
+  - Name: FontFamily
+    Id: g=46a159e2e374455fff0a005d76c4d8b4
+    Type: BaseDataVariableType
+    DataType: Font
+    Value: ""
+- Name: NativePresentationEngine
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/DB_BikeStores/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/DB_BikeStores/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1024.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 768.0
+  - Name: Caption
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/DB_BikeStores@BrowseName"
+  - Name: Header
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Image1
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/bike.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: Image2
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/LogoFTOptixWhite.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 134.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: ColorizationMode
+        Type: BaseDataVariableType
+        DataType: ColorizationModeEnum
+        ModellingRule: Optional
+        Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: FillMode
+        Type: BaseDataVariableType
+        DataType: FillModeEnum
+        ModellingRule: Optional
+        Value: 0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+  - Name: NavigationPanel1
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Select Your Bike"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/DB_BikeStores/UI/Screens/Select_Bike"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"New Entry"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/DB_BikeStores/UI/Screens/Add_New"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- File: Screens/Screens.yaml
+- File: Templates/Templates.yaml

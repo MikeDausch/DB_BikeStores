@@ -1,0 +1,2 @@
+DELETE FROM products WHERE Product_ID NOT IN (SELECT TOP 321 Product_ID FROM products)
+DBCC CHECKIDENT (products, RESEED, 321)

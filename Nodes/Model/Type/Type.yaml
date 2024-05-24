@@ -1,0 +1,61 @@
+Name: Type
+Type: FolderType
+Children:
+- Name: DB_Product
+  Id: g=889e241c63b0bee5e1a502684ba2ad8e
+  Supertype: BaseObjectType
+  Children:
+  - Name: product_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: product_name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: brand_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: category_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: model_year
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: list_price
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Class: DataType
+  Name: DB_BaseDataType
+  Id: g=1d4a02729d71e28331ad7229f3ef6031
+  Supertype: BaseDataType
+  Children:
+  - Name: product_name
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: None
+    Value: "0"
+  - Name: brand_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    ModellingRule: None
+    Value: 0
+  - Name: category_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    ModellingRule: None
+    Value: 0
+  - Name: model_year
+    Type: BaseDataVariableType
+    DataType: Int32
+    ModellingRule: None
+    Value: 0
+  - Name: list_price
+    Type: BaseDataVariableType
+    DataType: Float
+    ModellingRule: None
+    Value: 0.0

@@ -1,0 +1,126 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Sql_Par/Sql_Par.yaml
+- Name: Selected_Product
+  Type: DB_Product
+  Children:
+  - Name: product_id
+    Id: g=0bc30e7e5d568251a76655ec069608af
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/Product_id"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: product_name
+    Id: g=ad9e5c9ca521f98f3f1f9f522f4d4de0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/Product_name"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: brand_id
+    Id: g=378cdcb43836c70b3bd07be0e5463ef6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/Brand_id"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: category_id
+    Id: g=f80ed23a9d47b0ff26469452356fcc7e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/Category_id"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: model_year
+    Id: g=baeb00acb9d766501b2349fb093b3652
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/model_year"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: list_price
+    Id: g=22b601ca12dff29404e86ba13086df4e
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Product_Selected_Bike/list_price"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: New_Product
+  Id: g=044e59dc4fa77a96fac6fa1e281f6ef3
+  Type: DB_Product
+  Children:
+  - Name: product_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 999
+  - Name: product_name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "New Product"
+  - Name: brand_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 9
+  - Name: category_id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 6
+  - Name: model_year
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2024
+  - Name: list_price
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 3000.5
+- File: Type/Type.yaml

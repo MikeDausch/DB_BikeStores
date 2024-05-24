@@ -1,0 +1,18 @@
+Name: Sql_Par
+Type: FolderType
+Children:
+- Name: sql_literal_SelectedItem
+  Id: g=0a15cccfe0ad0550f83f2dc5ebf1d3d2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "3"
+- Name: sql_identifier_Column
+  Id: g=501916923b8a3e5fee481244ed1e8656
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "brand_id"
+- Name: NodeID_Selected_Bike
+  Id: g=0263b48f918dc00e5748b642ef7dfc60
+  Type: BaseDataVariableType
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}

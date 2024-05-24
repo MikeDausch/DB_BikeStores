@@ -1,0 +1,100 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Product
+  Id: g=03e26daca425262319a3b9ed58c84496
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Product",
+    "DataType": {
+     "IdType": 2,
+     "Id": "03e26daca425262319a3b9ed58c84496",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Brand_id",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Category_id",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "list_price",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "model_year",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Product_id",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Product_name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Product"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Motor
+  Id: g=ed1bfba6c4f55ee3fa051bd42f765523
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ed1bfba6c4f55ee3fa051bd42f765523",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CmdOffOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Power",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetSpeed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
