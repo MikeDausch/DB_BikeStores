@@ -89,15 +89,23 @@ Project:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
+  23:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  24:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 1133
-  Objects: 229
+  TotalNodeCount: 1159
+  Objects: 235
   ObjectTypes: 5
-  Variables: 893
+  Variables: 913
   VariableTypes: 2
   DataTypes: 3
   Methods: 1
-  References: 31
+  References: 35
   ReferenceTypes: 0
   Files: 29
  Nodes:

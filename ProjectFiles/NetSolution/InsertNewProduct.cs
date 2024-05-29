@@ -14,6 +14,7 @@ using FTOptix.SQLiteStore;
 using System.Reflection.PortableExecutable;
 using FTOptix.EdgeAppPlatform;
 using System.Threading.Tasks.Dataflow;
+using FTOptix.WebUI;
 #endregion
 
 public class InsertNewProduct : BaseNetLogic {
